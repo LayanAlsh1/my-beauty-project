@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Product Listing - My Beauty Store</title>
+    <link rel="stylesheet" type="text/css" href="style.css" /></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<body>
+    <special-header></special-header>
+    
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+
+    <ul class="indicator">
+      <li data-filter="all" class="active"><a href="#">All</a></li>
+      <li data-filter="Eyes"><a href="#">Eyes</a></li>
+      <li data-filter="Face"><a href="#">Face</a></li>
+      <li data-filter="Lips"><a href="#">Lips</a></li>
+    </ul>
+
+    <div class="filter-condition">
+      <span>View As a</span>
+      <select name="" id="select">
+        <option value="Default">Default</option>
+        <option value="LowToHigh">Low to high</option>
+        <option value="HighToLow">High to low</option>
+      </select>
+    </div>
+
+    <section class="products" id="products"> 
+
+        <h1 class="heading">Everything you need to <span>make your beauty shine</span></h1>
+      
+        <div class="box-container">
+      
+          <div class="box" data-price="225.00" data-category="Face">
+            
+            <span class="discount">-10%</span>
+            <div class="images">
+              <a href="product-details.html">
+              <img src="images/m2.jpg" alt="">
+            </a>
+              <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+            </div>
+            <div class="content">
+              <h3>DIOR BACKSTAGE GLOW FACE PALETTE</h3>
+              <div class="price">225.00SR <span>250.00SR</span></div> 
+            </div>
+          </div>
+      
+          <div class="box" data-price="85.00" data-category="Lips">
+            <span class="discount">-15%</span>
+            <div class="images">
+              <a href="product-details.html">
+              <img src="images/m7.jpg" alt="">
+              </a>
+              <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+            </div>
+            <div class="content">
+              <h3>Kiko gloss</h3>
+              <div class="price">85.00SR <span>100.00SR</span></div> 
+            </div>
+          </div>
+      
+          <div class="box" data-price="120.00" data-category="Eyes">
+            <span class="discount">-20%</span>
+            <div class="images">
+              <a href="product-details.html">
+              <img src="images/m4.jpg" alt="">
+              </a>
+              <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+              </div>
+            </div>
+            <div class="content">
+              <h3>Tarte Concealer</h3>
+              <div class="price">120.00SR <span>150.00SR</span></div> 
+            </div>
+          </div>
+      
+          <div class="box" data-price="57.00" data-category="Eyes">
+            <span class="discount">-5%</span>
+            <div class="images">
+              <a href="product-details.html">
+              <img src="images/m5.jpg" alt="">
+              </a>
+              <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+              </div>
+            </div>
+            <div class="content">
+              <h3>mascara</h3>
+              <div class="price">57.00SR <span>64.00SR</span></div> 
+            </div>
+          </div>
+      
+          <div class="box" data-price="50.00" data-category="Face">
+            <span class="discount">-50%</span>
+            <div class="images">
+              <a href="product-details.html">
+              <img src="images/m6.jpg" alt="">
+              </a>
+              <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+              </div>
+            </div>
+            <div class="content">
+              <h3>Benetint</h3>
+              <div class="price">50.00SR <span>100.00SR</span></div> 
+            </div>
+          </div>
+          <div class="box" data-price="99.00" data-category="Face">
+            <span class="discount">-10%</span>
+            <div class="images">
+              <a href="product-details.html">
+              <img src="images/m8.jpg" alt="">
+              </a>
+              <div class="icons">
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="cart-btn">add to cart</a>
+              <a href="#" class="fas fa-share"></a>
+              </div>
+            </div>
+            <div class="content">
+              <h3>rare beauty blush</h3>
+              <div class="price">99.00SR<span>109.00SR</span></div> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <special-footer></special-footer>
+     <script src="./headerFooterManager.js"></script>
+
+     <script src="filterSort.js"></script>
+
+</body>
+</html>
